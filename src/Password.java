@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Password {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите имя пользователя:");
+        System.out.println("Введите ИМЯ пользователя:");
         String name = sc.nextLine();
         System.out.println("Создайте пароль:");
         String PW = sc.nextLine();
